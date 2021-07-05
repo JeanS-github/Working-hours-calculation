@@ -3,6 +3,9 @@ From a CSV file, calculates the hours made at each check-in.
 
 Displays the number of hours and missing hours per week, then the total since the 1st check in.
 
+I use [this](https://play.google.com/store/apps/details?id=com.picca.pointage&hl=fr&gl=US) app on android to save my hours.
+This is not the best app, but it's easy to use, and it save my hours is a csv file.
+
 ## Installation
 
 Tested with python3
