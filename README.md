@@ -86,7 +86,7 @@ nb heure 4:15:00
 nb heure 3:45:00
 nb heure 4:15:00
 nb heure 5:15:00
-semaine 25 heures = 35 h 10 m
+semaine 25 => 35 h 10 m
 
 nb heure 4:35:00
 nb heure 3:05:00
@@ -98,7 +98,7 @@ nb heure 3:10:00
 nb heure 3:50:00
 nb heure 3:10:00
 nb heure 4:30:00
-semaine 26 heures = 34 h 40 m
+semaine 26 => 34 h 40 m
 il manque : 0:20:00 
 
 Durée totale    : 5 days, 15:56:00
