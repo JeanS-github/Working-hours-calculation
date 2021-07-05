@@ -18,12 +18,12 @@ sudo pip3 install python-dateutil pandas
 
 ## Run
 
-Change in the python script the filename of your CSV file (line 9, "check-in.dat").
+Change in the python script the filename of your CSV file (line 9, "check-in.csv").
 You can also change the delimiter (I used ";").
 
 ```python
 # read csv file
-df = pd.read_csv("check-in.dat", skiprows=[0],sep=';')
+df = pd.read_csv("check-in.csv", skiprows=[0],sep=';')
 ```
 And then:
 ```bash
