@@ -34,7 +34,7 @@ for index in df.index:
     else:
         heures=int(cumul_semaine.total_seconds()/3600)
         minutes=((cumul_semaine.total_seconds()/3600)-heures)*60
-        print("semaine",id_semaine_prev,"heures =",heures,"h",round(minutes),"m")
+        print("semaine",id_semaine_prev,"=>",heures,"h",round(minutes),"m")
         if cumul_semaine < timedelta(hours=35):
             left=timedelta(hours=35)-cumul_semaine
             print("il manque :",left,"")
@@ -48,7 +48,7 @@ for index in df.index:
 # display total hours for the last week
 heures=int(cumul_semaine.total_seconds()/3600)
 minutes=((cumul_semaine.total_seconds()/3600)-heures)*60
-print("semaine",id_semaine_prev,"heures =",heures,"h",round(minutes),"m")
+print("semaine",id_semaine_prev,"=>",heures,"h",round(minutes),"m")
 if cumul_semaine < timedelta(hours=35):
     left=timedelta(hours=35)-cumul_semaine
     print("il manque :",left,"")
