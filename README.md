@@ -66,4 +66,44 @@ The CSV file, need to be like that:
 "28";"26/06/2021 19:30";"27/06/2021 00:45";""
 ```
 
+## Result
+
+You'll finally get this:
+
+* display total hours for each check-in
+* total hours per week, with the week's number
+* and if you're in France, the missing hours if you work less than 35h per week
+* and finally the total of working hours and the missing hours
+
+```txt
+nb heure 3:10:00
+nb heure 2:45:00
+nb heure 3:00:00
+nb heure 2:45:00
+nb heure 3:15:00
+nb heure 2:45:00
+nb heure 4:15:00
+nb heure 3:45:00
+nb heure 4:15:00
+nb heure 5:15:00
+semaine 25 heures = 35 h 10 m
+
+nb heure 4:35:00
+nb heure 3:05:00
+nb heure 3:00:00
+nb heure 2:35:00
+nb heure 3:40:00
+nb heure 3:05:00
+nb heure 3:10:00
+nb heure 3:50:00
+nb heure 3:10:00
+nb heure 4:30:00
+semaine 26 heures = 34 h 40 m
+il manque : 0:20:00 
+
+Durée totale    : 5 days, 15:56:00
+Durée en heures : 135 h 56 m
+Il me manque    : 4 h 14 m
+```
+
 
