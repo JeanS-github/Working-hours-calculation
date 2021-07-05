@@ -6,7 +6,7 @@ from datetime import timedelta
 import pandas as pd
 
 # read csv file
-df = pd.read_csv("week-4.dat", skiprows=[0],sep=';')
+df = pd.read_csv("check-in.csv", skiprows=[0],sep=';')
 
 #df.info()
 
