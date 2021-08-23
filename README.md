@@ -79,34 +79,39 @@ You'll finally get this:
 * and finally the total of working hours and the missing hours
 
 ```txt
-nb heure 3:10:00
-nb heure 2:45:00
-nb heure 3:00:00
-nb heure 2:45:00
-nb heure 3:15:00
-nb heure 2:45:00
-nb heure 4:15:00
-nb heure 3:45:00
-nb heure 4:15:00
-nb heure 5:15:00
-semaine 25 => 35 h 10 m
+22/06 nb heure 3:15:00
+22/06 nb heure 2:45:00
+23/06 nb heure 3:00:00
+23/06 nb heure 2:45:00
+24/06 nb heure 3:15:00
+24/06 nb heure 2:45:00
+25/06 nb heure 4:15:00
+25/06 nb heure 3:45:00
+26/06 nb heure 4:15:00
+26/06 nb heure 5:15:00
+semaine 25 => 35h 15m
 
-nb heure 4:35:00
-nb heure 3:05:00
-nb heure 3:00:00
-nb heure 2:35:00
-nb heure 3:40:00
-nb heure 3:05:00
-nb heure 3:10:00
-nb heure 3:50:00
-nb heure 3:10:00
-nb heure 4:30:00
-semaine 26 => 34 h 40 m
-il manque : 0:20:00 
+29/06 nb heure 4:35:00
+29/06 nb heure 3:05:00
+30/06 nb heure 3:00:00
+30/06 nb heure 2:35:00
+01/07 nb heure 3:40:00
+01/07 nb heure 3:05:00
+02/07 nb heure 3:10:00
+02/07 nb heure 3:50:00
+03/07 nb heure 3:10:00
+03/07 nb heure 4:30:00
+semaine 26 => 34h 40m
+il manque : 0:20:00
 
-Durée totale    : 5 days, 15:56:00
-Durée en heures : 135 h 56 m
-Il me manque    : 4 h 14 m
+[...]
+
+Durée totale    : 5 days, 15:55:00
+Durée en heures : 135 h 55 m
+Nombre de semaines de travail : 11
+Il me manque    : 4 h 15 m
+J'ai fait 15h 30m supp
+
 ```
 
 
